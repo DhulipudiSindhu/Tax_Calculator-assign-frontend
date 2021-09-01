@@ -14,7 +14,7 @@
   }
   
   .heading {
-    color: #38ea0c;
+    color: #388bf8;
     font-weight: 500;
     font-size: 48px;
   }
@@ -84,7 +84,7 @@
     padding: 8px 16px;
     margin-top: 20px;
     margin-bottom: 2px;
-    background-color:#38ea0c;
+    background-color:#0cb6ea;
     border-radius: 8px;
     border: none;
     cursor: pointer;
