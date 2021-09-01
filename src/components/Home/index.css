@@ -1,0 +1,107 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.form-container{
+    display: flex;
+    align-items:center;
+}
+.responsive-container{
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width:768px){
+    .responsive-container{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+.form-element{
+    display: flex;
+    flex-direction: column;
+    margin-top:15px;
+    width: 100%;
+}
+.form-element-1{
+    margin-top:15px;
+    width: 100%;
+}
+.form-heading{
+    color:rgb(231, 123, 123);
+    font-family:"Roboto";
+    font-size:32px;
+}
+@media screen and (max-width:768px){
+    .form-heading{
+        font-size: 24px;
+    }
+}
+.label-text {
+    margin-bottom: 0px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #667b83;
+  }
+  @media screen and (min-width:768px){
+      .label-text{
+          font-size: 18px;
+      }
+  }
+  .radio{
+    color:gray;
+    font-size: 14px;
+  }
+  .input-field {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 500;
+    border: 1px solid #cbd2d9;
+    color: #121213;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 8px 16px 8px 16px;
+    outline: none;
+  }
+.city-heading{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color:#667b83;
+}
+@media screen and (min-width:768px){
+    .city-heading{
+        font-size: 18px;
+    }
+}
+.button-container{
+    text-align: center;
+}
+.submit-button {
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #ffffff;
+    padding: 8px 16px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    background-color:#3836df;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    
+  }
+  .icon-cal{
+      padding-left: 4px;
+  }
+  .tax-heading{
+      color:greenyellow;
+      font-family: "Roboto";
+      font-size:48px;
+      font-weight:bold;
+  }
